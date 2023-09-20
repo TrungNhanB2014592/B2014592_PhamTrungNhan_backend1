@@ -1,3 +1,5 @@
+const express = require("express");
+
 exports.create = (req, res) => {
   res.send({ message: "create handler" });
 };
@@ -8,7 +10,7 @@ exports.findOne = (req, res) => {
   res.send({ message: "findOne handler" });
 };
 exports.update = (req, res) => {
-  res.send({ message: "Update handler" });
+  res.send({ message: "update handler" });
 };
 exports.delete = (req, res) => {
   res.send({ message: "delete handler" });
@@ -19,3 +21,5 @@ exports.deleteAll = (req, res) => {
 exports.findAllFavorite = (req, res) => {
   res.send({ message: "findAllFavorite handler" });
 };
+const app = express();
+exports.app = app;
