@@ -1,17 +1,18 @@
 {
-  "name": "contactbook-backend",
+  "name": "contactbook-backend-b2014572",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "script": {
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
-  "author": "\"Trung Nhan\"",
+  "author": "b2014572-NMXHuong",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "server": "^1.0.38"
+    "mongodb": "^6.1.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
